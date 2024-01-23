@@ -6,7 +6,7 @@ h1{
     font-size: 55px;
     
 }
-.name{
+.highlight{
     color: darkorange;
 }
 .half{
@@ -37,4 +37,29 @@ section{
     background-image: url("./images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+.box{
+    box-shadow: 10px 10px 40px gray;
+    height: 250px;
+    background-color: aliceblue;
+    border-radius: 8px;
+}
+.experience{
+    background-image: url("./images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#fullstack{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightSalmon,tomato);
+    border-image-slice: 1;
+    
+}
+#noob{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
