@@ -19,9 +19,11 @@ h1{
 }
 .top-banner{
     background-image: url("./images/top-banner.png");
+    background-repeat: no-repeat;
 }
 section{
     height: 500px;
+    padding-bottom: 150px ;
 }
 .button{
     text-decoration: none;
@@ -29,4 +31,10 @@ section{
     padding: 10px 20px;
     border-radius: 8px;
     color: aliceblue;
+    font-weight: 600;
+}
+.dream_area{
+    background-image: url("./images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
