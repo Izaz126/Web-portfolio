@@ -1,5 +1,6 @@
 body{
     font-family: 'Nunito', sans-serif;
+    margin: 0px;
 }
 h1{
     font-size: 55px;
@@ -11,8 +12,21 @@ h1{
 .half{
     width: 40%;
     float: left;
-    margin-left: 2%;
+    margin-left: 5%;
 }
 .half img{
     width: 100%;
+}
+.top-banner{
+    background-image: url("./images/top-banner.png");
+}
+section{
+    height: 500px;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: aliceblue;
 }
